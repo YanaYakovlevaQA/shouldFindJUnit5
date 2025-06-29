@@ -13,7 +13,7 @@ public class shouldFindJUnit5 {
         Configuration.browserSize = "1920x1980";
         Configuration.pageLoadStrategy = "eager";
         Configuration.baseUrl = "https://github.com";
-        Configuration.holdBrowserOpen = true; //конфигурация для проверки теста
+        //Configuration.holdBrowserOpen = true; конфигурация для проверки теста
     }
 
     @Test
